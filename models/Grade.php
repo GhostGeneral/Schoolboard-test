@@ -53,7 +53,7 @@ class Grade extends Model
         }
 
         if(empty($this->table->student_id)){
-            $this->errors[]= "Stundet ID is empty.";
+            $this->errors[]= "Student ID is empty.";
         }else{
             if(is_int($this->table->student_id)){
                 $this->errors[]= "Student ID must be number.";

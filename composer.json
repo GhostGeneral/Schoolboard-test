@@ -1,5 +1,6 @@
 {
     "require": {
-        "ext-mysqli": "*"
+        "ext-mysqli": "*",
+        "nikic/fast-route": "^1.3"
     }
 }
