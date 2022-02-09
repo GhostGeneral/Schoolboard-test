@@ -11,21 +11,56 @@ class ComposerStaticInit805f12eeea494288cdfb9cc47a2bbf95
     );
 
     public static $prefixLengthsPsr4 = array (
+        'P' => 
+        array (
+            'Pecee\\' => 6,
+        ),
+        'O' => 
+        array (
+            'OomphInc\\ComposerInstallersExtender\\' => 36,
+        ),
         'F' => 
         array (
             'FastRoute\\' => 10,
         ),
+        'C' => 
+        array (
+            'Composer\\Installers\\' => 20,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Pecee\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/pecee/simple-router/src/Pecee',
+        ),
+        'OomphInc\\ComposerInstallersExtender\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/oomphinc/composer-installers-extender/src',
+        ),
         'FastRoute\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
+        ),
+        'Composer\\Installers\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
         ),
     );
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'school_board_test\\CSMBRule' => __DIR__ . '/../..' . '/controllers/Logic/CSMBRule.php',
+        'school_board_test\\DB' => __DIR__ . '/../..' . '/utils/DB.php',
+        'school_board_test\\Database' => __DIR__ . '/../..' . '/utils/Database.php',
+        'school_board_test\\Grade' => __DIR__ . '/../..' . '/models/Grade.php',
+        'school_board_test\\GradeController' => __DIR__ . '/../..' . '/controllers/GradeController.php',
+        'school_board_test\\GradeSchema' => __DIR__ . '/../..' . '/models/schema/GradeSchema.php',
+        'school_board_test\\Model' => __DIR__ . '/../..' . '/models/Model.php',
+        'school_board_test\\SchoolController' => __DIR__ . '/../..' . '/controllers/SchoolController.php',
+        'school_board_test\\Student' => __DIR__ . '/../..' . '/models/Student.php',
+        'school_board_test\\StudentController' => __DIR__ . '/../..' . '/controllers/StudentController.php',
+        'school_board_test\\StudentSchema' => __DIR__ . '/../..' . '/models/schema/StudentSchema.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

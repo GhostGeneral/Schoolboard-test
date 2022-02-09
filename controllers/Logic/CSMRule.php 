@@ -1,0 +1,14 @@
+<?php
+namespace school_board_test;
+
+class CSMRule
+{
+
+    public static function get_final_result($avg)
+    {
+        if($avg >= 7){
+            return "Pass";
+        }
+        return "Fail";
+    }
+}

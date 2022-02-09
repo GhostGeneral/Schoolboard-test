@@ -7,4 +7,15 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'school_board_test\\CSMBRule' => $baseDir . '/controllers/Logic/CSMBRule.php',
+    'school_board_test\\DB' => $baseDir . '/utils/DB.php',
+    'school_board_test\\Database' => $baseDir . '/utils/Database.php',
+    'school_board_test\\Grade' => $baseDir . '/models/Grade.php',
+    'school_board_test\\GradeController' => $baseDir . '/controllers/GradeController.php',
+    'school_board_test\\GradeSchema' => $baseDir . '/models/schema/GradeSchema.php',
+    'school_board_test\\Model' => $baseDir . '/models/Model.php',
+    'school_board_test\\SchoolController' => $baseDir . '/controllers/SchoolController.php',
+    'school_board_test\\Student' => $baseDir . '/models/Student.php',
+    'school_board_test\\StudentController' => $baseDir . '/controllers/StudentController.php',
+    'school_board_test\\StudentSchema' => $baseDir . '/models/schema/StudentSchema.php',
 );
